@@ -1,0 +1,584 @@
+@media (min-width:300px) and (max-width:1100px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        justify-content: start !important;
+        align-items: flex-start !important;
+        padding-left: 0;
+    }
+    nav li{
+        text-align: start;
+        
+ 
+    }
+    .banner h1{
+        font-size: 30pt !important;
+        margin-top: 10rem !important;
+        margin-bottom: 32pt;
+    }
+    .banner{
+        width: 100% !important;
+    }
+
+    
+    
+
+}
+@media (min-width:300px) and (max-width:1000px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-box{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .about-text{
+        width: 100% !important;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        
+    }
+}
+@media (min-width:300px) and (max-width:575px){
+    .card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+   
+}
+@media (min-width:300px) and (max-width:600px){
+    .bar{
+        height: 30% !important;
+        width:  23% !important;
+        display: none;
+    }
+    .search-bar-active{
+        height: 30% !important;
+        width:  23% !important;
+
+    }
+
+}
+*{
+    margin: 0;
+}
+.img-fluid{
+    max-width: 100%;
+
+}
+.align{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5rem;
+    margin-bottom: 4.375rem;
+}
+.align h1{
+    font-size: 2.5rem ;
+    text-transform: uppercase;
+    
+    
+}
+.align p{
+    font-size: 1.5rem;
+
+}
+
+/* header */
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+header{
+    background-image: url(../img/banner\ .jpg);
+    background-position: center;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+  
+}
+.brand{
+    font-size: 22pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1.5rem;
+
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    padding: 1rem;
+    font-size: 12pt;
+    text-transform: uppercase;
+    
+    
+}
+.active{
+    background-color: yellow;
+    width: 20px;
+    height: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+   
+
+}
+
+.badge{
+    background-color: yellow;
+    width: 20px;
+    height: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    display: none;
+    transition: 2s ease-in !important;
+    
+}
+li:hover .badge{
+    display: block;
+    
+   
+   
+}
+.banner{
+    text-align: center;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner h1{
+    font-size: 90pt;
+    margin-top: 6.25rem;
+    margin-bottom: 32pt;
+}
+.banner p{
+    font-size: 16pt;
+}
+.banner button{
+    margin-top: 30rem;
+    font-size: 17pt;
+    margin-bottom: 3.75rem;
+    padding:  1rem 3rem;
+    border-radius: 10px;
+    background-color: #ffb607;
+    border-color:  #ffb607;
+    color: white;
+}
+/* header */
+
+/* our services */
+.card{
+    display: flex;
+    text-align: center;
+}
+.card-box{
+    padding: 2rem;
+}
+
+
+.card-box p{
+    color: #4c4b4b;
+}
+.card-box h5{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.card-box button{
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color:#ffb607 ;
+    border-color: #ffb607;
+    color: white;
+
+}
+.main{
+    padding-bottom: 120px;
+    display: flex; 
+    justify-content: center;
+}
+/* our services */
+
+
+
+
+
+/* about */
+.about-box{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.about-text{
+    width: 40%;
+    padding: 1rem;
+}
+.about-text p{
+    line-height: 30px;
+    font-size: 17pt;
+    color: white;
+}
+.about-text h4{
+    font-size: 35pt;
+    color: white;
+    padding-bottom: 60px;
+}
+.about-text button{
+    
+    padding: 0.5rem  1rem;
+    background-color: black;
+    color: white;
+    margin-top: 105px;
+    border-radius: 5px;
+}
+.about{
+    background-color: #feba17;
+}
+.about-box{
+    padding-top: 115px; 
+    padding-bottom: 150px; 
+    display: flex;
+}
+.about-img img{
+    max-width: 100%;
+    padding: 1rem;
+}
+/* about  */
+
+
+
+/* our furnitures */
+.bar{
+    height: 15%;
+    background-color: #fcbd27;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    
+    justify-content: center;
+    align-items: center;
+    width: 11%;
+    display: none;
+    opacity: 0.9;
+    
+
+}
+.context i{
+    font-size: 1.5rem;
+    
+}
+.search-bar{
+    position: relative;
+    
+
+
+}
+
+
+
+.search-bar-active{
+    height: 15%;
+    background-color: #fcbd27;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    
+    justify-content: center;
+    align-items: center;
+    width: 11%;
+    display: flex;
+    opacity: 0.9;
+
+}
+.search-bar:hover .bar{
+    display: flex;
+}
+.context{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    width: 70%;
+}
+
+
+
+.who{
+    background-image: url(../img/who.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.who p {
+    color: white;
+    margin: 10px;
+    line-height: 20px;
+}
+.who h2{
+    color: white;
+    font-size: 30pt;
+}
+.who button{
+    background-color: #ffffff;
+    border-color: white; 
+    padding: 10px;
+    
+}
+.one {
+    background-image: url(../img/who.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+ .text {
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    z-index: 999999;
+}
+.child {
+    position: absolute;
+    top: 5%;
+    height: 90%;
+    border-radius: 12px;
+    width: 85%;
+    background-color: #f7b822;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.child p {
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.two {
+    background-image: url(../img/picture4\ .jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.baby {
+    position: absolute;
+    top: 5%;
+    height: 90%;
+    border-radius: 12px;
+    width: 85%;
+    background-color: #f7b822;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: none;
+}
+.baby p {
+    border: 2px solid white;
+    padding: 20px;
+}
+.two .text {
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.two:hover .baby{
+    display: flex;
+}
+.three:hover .baby{
+    display: flex;
+}
+.three .text {
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.three {
+    background-image: url(../img/picturees5\ .jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+ .box{
+    display: flex;
+    
+}
+.loksan{
+    justify-content: start;
+    display: flex;
+}
+.ex{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 5rem;
+}
+.box {
+    width: 55%;
+    border: 1px solid black;
+    display: flex;
+    margin: 1rem;
+}
+.box div{
+    padding: 1rem;
+} 
+.box div h6{
+    font-size: 1rem;
+    margin: 5px;
+}
+.box div p{
+  margin: 5px;
+  margin-bottom: 1rem;
+    
+}
+.big {
+    background-image: url(../img/big\ .jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.form {
+    background-color: #faba20;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+.form .form-control {
+    height: 58px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+mb-5 {
+    margin-bottom: 3rem!important;
+}
+.mt-4 {
+    margin-top: 1.5rem!important;
+}
+.btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    
+}
+.row-1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.row-1 h5{ font-size: 1.25rem;
+    margin: 2px;
+
+}
+.row-1 p{
+    font-size: 1.1rem;
+    margin: 2px;
+}
+.first-footer {
+    background-color: #3d3d3c;
+    opacity: 0.9;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+footer .icon p {
+    background-color: #2c2c2b;
+    width: 26px;
+    border-radius: 50%;
+    text-align: center;
+    height: 26px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div p .fa-brands {
+    color: white;
+   
+}
+
+
+
+

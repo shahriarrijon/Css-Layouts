@@ -1,0 +1,326 @@
+body,h1,h2,h3,h4,h5,h6,figure,p{
+    margin: 0;    
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.textcenter{
+    text-align: center;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+h3{
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top:  80px;
+    padding-bottom: 30px;
+}
+/*style for header*/
+header{
+    background-color: #f9f9f9;
+    height: 90px;
+    position: fixed;
+    width: 1500px;
+    z-index: 9999999999999;
+}
+header .container .logo{
+    position: relative;
+   float: left;
+}
+
+header .container .nav{
+    float: right;
+    margin-top: 30px;
+}
+header .container .logo figcaption{
+      position: absolute;
+      top: 30px;
+      left: 100px;
+      font-size: 18px;
+      color: black;
+      text-transform: uppercase ;
+}
+header .container{
+    overflow: hidden;
+}
+ header .container .nav li{
+    display: inline;
+    margin-right: 45px;
+}
+header .container .nav li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600px;
+}
+/* style for banner */
+#banner{
+    background-image: url(../img/banner.jpg);
+    padding-top: 240px;
+    padding-bottom: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .textcenter h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#banner .textcenter p{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+/* style for dumy text */
+#dummytext h2{
+    font-size: 20px;
+    color: #444444;
+    font-weight: normal;
+    margin-bottom: 15px;  
+}
+#dummytext p{
+    font-size: 14px;
+    color: #666666;
+}
+#dummytext{
+    background-color: #f9f9f9;
+}
+#dummytext div h3{
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top:  80px;
+    padding-bottom: 30px;
+}
+#dummytext .container .service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+#dummytext .container .service figure{
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #a3a3a3;
+}
+#dummytext .container .service figure figcaption h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: #444444;
+
+}
+#dummytext .container .service figure figcaption p{
+    font-size: 14px;
+    color: #666666;
+}
+/* mark up instagram */
+#instagram{
+    background-color: #2c2c2c;
+   
+}
+#instagram .container .wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+#instagram .container .wrapper p{
+    display: none;
+}
+#instagram .container .wrapper div{
+    position: relative;
+    
+}
+#instagram .container .wrapper div:hover p{
+    display: block;
+    background-color: #eeeeee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000;
+    font-size: 36px;
+    width: 100%;
+    height: 100%;
+}
+#instagram .container .wrapper div p span{
+    display: inline-block;
+    padding-top: 135px;
+    padding-left: 75px;
+}
+#instagram .container > p{
+    width: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: 1px solid #797979;
+    margin-bottom: 70px;
+}
+#instagram .container > p a{
+    color: #a6a6a6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600px;
+}
+/* mark up for journal */
+#journal{
+    background-color: #f9f9f9;
+}
+#journal .container .photography{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+#journal .container .photography p{
+    color:#666666;
+}
+#journal .container .photography div figure{
+    background: white;
+    padding-top: 30px;
+    padding-bottom: px;
+    border: 1px solid #a3a3a3; 
+}
+#journal .container .photography div figure div{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#journal .container .photography div figure div p{
+    padding-top: 5px;
+}
+#journal .container .photography div figure figcaption{
+    padding: 10px;
+
+}
+#journal .container .photography div figure div h5{
+    color: #666666;
+}
+#journal .container .photography div figure div:hover h5{
+color: #000;
+}
+#journal .container .photography div figure figcaption p span{
+    font-size: 11px;
+    border-bottom: 1px solid #28b8d8;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+#journal .container .photography div figure figcaption p{
+    margin-bottom: 10px;
+}
+#journal .container .photography div figure figcaption p span a{
+    text-decoration: none;
+    color:#666666;
+}
+/* mark up .photography */
+#photographer .container .about-photography{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 30px;
+}
+#photographer .container .about-photography .profile{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+}
+#photographer .container .about-photography .profile p{
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+    line-height: 25px;
+
+}
+#photographer .container .about-photography .service{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-gap: 10px;
+    margin-bottom: 15px;
+}
+#photographer .container .about-photography .service > p{
+    color: #28b8d8;
+    font-size: 30px;
+}
+#photographer .container .about-photography .service h4{
+    color: #444444;
+    font-size: 17px;
+    margin-bottom: 10px;
+
+}
+#photographer .container .about-photography .service div p{
+    font-size: 14px;
+    color: #666666;
+}
+#photographer{
+    background-color: #f9f9f9;
+}
+/* mark up contact */
+#contact{
+    background-color: #373737;
+}
+#contact .container .info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+#contact .container .info h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: normal;
+}
+#contact .container .info p{
+    margin-top: 20px;
+    color: #a5a5a5;
+    font-size: 14px;
+}
+#contact .container .info span{
+    color: #646464;
+    font-size: 12px;
+}
+#contact .container .info div .swing{
+    display: grid;
+    grid-template-columns:1fr 10fr ;
+    line-height: 20px;
+}
+/* mark up footer */
+footer{
+    background-color: #333333;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer .container > p{
+    color: #cacaca;
+    font-size: 14px;
+}
+footer .container > div p{
+    display: inline-block;
+    color:#cacaca ;
+    width: 35px;
+    height: 35px;
+    border: 3px solid #cacaca ;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+footer .container div p i{
+    position: relative;
+}
+footer .container div p .fa-brands{
+    top: 9px;
+    left: 12px;
+}
+footer .container div p:hover {
+    color: #0b0b0b;
+    border-color: #0b0b0b;
+}
